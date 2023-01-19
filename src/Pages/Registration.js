@@ -43,7 +43,7 @@ const Registration = () => {
                         <span className="label-text-alt text-primary font-semibold">Need help ?</span>
                     </label>
                     <input type="text" placeholder="NITJ is a college of national
-                     importance and students can get admission into this college through the JEE mains entrance exam and then the JoSSA counselling ...." className="text-secondaryinput input-bordered h-36  border-black" />
+                     importance and students can get admission into this college through the JEE mains entrance exam and then the JoSSA counselling ...." className="text-secondary input input-bordered h-20  border-black" />
                     <label className="label">
                         <span className="label-text-alt"></span>
                         <span className="label-text-alt text-secondary">0/200</span>
