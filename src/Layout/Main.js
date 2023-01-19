@@ -5,13 +5,11 @@ import Registration from '../Pages/Registration';
 
 const Main = () => {
     return (
-        <div className=''>
+        <div className='lg:mx-40 mt-5 font-manrope'>
             <Navbar></Navbar>
-                <div class="col-span-3">
-                    <Registration></Registration>
-                    <Outlet></Outlet>
-                </div>
-            </div>
+            <Registration></Registration>
+            <Outlet></Outlet>
+        </div>
     );
 };
 

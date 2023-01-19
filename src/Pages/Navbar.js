@@ -12,9 +12,9 @@ const Navbar = () => {
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-secondary">
                         <li><Link>Pricing</Link></li>
                         <li><Link>Features</Link></li>
                         <li><Link>Customers</Link></li>
@@ -40,8 +40,8 @@ const Navbar = () => {
                     <li><Link>Contact Us</Link></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <Link className="btn bg-primary">Get started</Link>
+            <div className="navbar-end w-36 md:w-1/2">
+                <Link className="btn bg-primary rounded-xl">LOGIN/SIGNUP</Link>
             </div>
         </div>
     );
